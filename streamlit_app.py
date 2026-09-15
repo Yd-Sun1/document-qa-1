@@ -4,8 +4,7 @@ st.set_page_config(page_title="Labs")
 
 lab1 = st.Page(
     "Lab1.py",
-    title="Lab 1",
-    default=True
+    title="Lab 1"
 )
 
 lab2 = st.Page(
@@ -18,9 +17,15 @@ lab3 = st.Page(
     title="Lab 3"
 )
 
+lab4 = st.Page(
+    "Lab4.py",
+    title="Lab 4",
+    default=True
+)
+
 pg = st.navigation(
     {
-        "Labs": [lab1, lab2, lab3]
+        "Labs": [lab1, lab2, lab3, lab4]
     }
 )
 
