@@ -23,9 +23,14 @@ lab4 = st.Page(
     default=True
 )
 
+lab5 = st.Page(
+    "Lab5.py",
+    title="Lab 5"
+)
+
 pg = st.navigation(
     {
-        "Labs": [lab1, lab2, lab3, lab4]
+        "Labs": [lab1, lab2, lab3, lab4, lab5]
     }
 )
 
